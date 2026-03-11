@@ -1,8 +1,28 @@
 body {
-    /* text-align: center; */
+
     margin: 0;
-    /* padding: auto; */
+
 }
+
+
+/* Typography */
+
+.hex {
+    font-size: 12px;
+
+}
+
+.nav-box,
+.mode,
+.hex {
+    color: #D5D4D8;
+}
+
+
+
+
+
+/* LayOut */
 
 .main-box {
     width: 550px;
@@ -17,7 +37,6 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
-    color: #D5D4D8;
     position: relative;
     top: 90px
 }
@@ -30,18 +49,14 @@ body {
 }
 
 .color-form {
-
     display: flex;
     gap: 12px;
-
-
 }
 
 .mode {
     width: 312px;
     height: 42px;
     background-color: #1F293A;
-    color: #D5D4D8;
     border-radius: 6px;
 }
 
@@ -63,16 +78,13 @@ body {
 .colors {
     height: 550px;
     flex: 1;
-    background-color: aliceblue;
-
-
 }
 
 .hex-code {
     display: flex;
+    height: 46px;
     justify-content: space-around;
     background-color: #1F2937;
-    color: #D5D4D8;
     position: relative;
     bottom: 46px;
 }

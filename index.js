@@ -28,11 +28,11 @@ function fetchColors() {
             color5.style.backgroundColor = `${colorsArr[4]}`
 
             hexCodes.innerHTML = `
-                <p id="hex-1" class="hex-1">${colorsArr[0]}</p>
-                <p id="hex-2" class="hex-2">${colorsArr[1]}</p>
-                <p id="hex-3" class="hex-3">${colorsArr[2]}</p>
-                <p id="hex-4" class="hex-4">${colorsArr[3]}</p>
-                <p id="hex-5" class="hex-5">${colorsArr[4]}</p>
+                <p id="hex-1" class="hex">${colorsArr[0]}</p>
+                <p id="hex-2" class="hex">${colorsArr[1]}</p>
+                <p id="hex-3" class="hex">${colorsArr[2]}</p>
+                <p id="hex-4" class="hex">${colorsArr[3]}</p>
+                <p id="hex-5" class="hex">${colorsArr[4]}</p>
         `
         }
         )
