@@ -13,16 +13,43 @@
                 * color type dropdown menu
                 * get color scheme button
                 -->
+
+            <form id="color-form" class="color-form">
+                <input type="color" id="color-selector" class="color-selector" value="#ff0000">
+                <select id="mode" class="mode" form="color-form">
+                    <option value="Monochrome">Monochrome</option>
+                    <option value="Monochrome-dark">Monochrome-dark</option>
+                    <option value="Monochrome-light">Monochrome-light</option>
+                    <option value="Analogic">Analogic</option>
+                    <option value="Complement">Complement</option>
+                    <option value="Analogic-complement">Analogic-complement</option>
+                    <option value="Triad">Triad</option>
+                </select>
+                <button type="submit" id="get-color" class="get-color">Get Color Scheme</button>
+            </form>
         </div>
         <div id="colors-box" class="colors-box">
             <!-- 
                 * six equal sized columns for colors
                 -->
+            <div id="color-1" class="colors"></div>
+            <div id="color-2" class="colors"></div>
+            <div id="color-3" class="colors"></div>
+            <div id="color-4" class="colors"></div>
+            <div id="color-5" class="colors"></div>
         </div>
         <div id="hex-colors" class="hex-colors">
             <!-- 
                 * six equal sized columns for  hex colors code 
                 -->
+
+            <div id="hex-code" class="hex-code">
+                <p id="hex-1" class="hex-1">#ff0000</p>
+                <p id="hex-2" class="hex-2">#ff0000</p>
+                <p id="hex-3" class="hex-3">#ff0000</p>
+                <p id="hex-4" class="hex-4">#ff0000</p>
+                <p id="hex-5" class="hex-5">#ff0000</p>
+            </div>
         </div>
     </div>
 </body>
